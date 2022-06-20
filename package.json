@@ -1,0 +1,20 @@
+{
+  "name": "vue-tsc-bug",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:dts": "vue-tsc --declaration --emitDeclarationOnly"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "vue-tsc": "^0.38.1"
+  },
+  "dependencies": {
+    "@vue/shared": "^3.2.37",
+    "element-plus": "^2.2.6",
+    "vue": "^3.2.37"
+  }
+}
